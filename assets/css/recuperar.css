@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #006837, #00994C);
+}
+
+.wrapper-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-page main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sena {
+    background-color: #00994C;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-sena:hover {
+    background-color: #00cc66;
+}
+
+.form-control {
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+label {
+    color: #ccc;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #aaa;
+}

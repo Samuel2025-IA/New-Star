@@ -1,0 +1,25 @@
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.dashboard-card {
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 153, 76, 0.2);
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}

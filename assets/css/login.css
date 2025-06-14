@@ -1,0 +1,80 @@
+
+        body {
+            background: linear-gradient(135deg, #006837, #00994C);
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+        
+
+        .card {
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-control {
+            border-radius: 50px;
+            height: 50px;
+            padding-left: 45px;
+        }
+
+        .form-floating > label {
+            padding-left: 45px;
+            color: #6c757d;
+        }
+
+        .form-icon {
+            position: absolute;
+            top: 12px;
+            left: 15px;
+            color: #888;
+            font-size: 18px;
+        }
+
+        .btn-custom {
+            height: 50px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .btn-sena {
+            background-color: #00994C;
+            color: white;
+            border: none;
+        }
+
+        .btn-sena:hover {
+            background-color: #00cc66;
+        }
+
+        .btn-google {
+            background-color: #EA4335;
+            color: white;
+        }
+
+        .btn-google:hover {
+            background-color: #cc392d;
+        }
+
+        .btn-facebook {
+            background-color: #3B5998;
+            color: white;
+        }
+
+        .btn-facebook:hover {
+            background-color: #2d4373;
+        }
+
+        .form-check-label{
+            color: #6c757d;
+        } 
+   
+        .small a {
+            color: #00994C;
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+    }
+    
